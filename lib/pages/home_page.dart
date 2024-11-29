@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:login_demo/login_page.dart';
+import 'package:login_demo/pages/login_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class HomePage extends StatelessWidget {

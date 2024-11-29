@@ -1,8 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:login_demo/home_page.dart';
-import 'package:login_demo/login_page.dart';
+import 'package:login_demo/pages/home_page.dart';
+import 'package:login_demo/pages/login_page.dart';
+import 'package:login_demo/themes/myThemes.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
@@ -14,6 +15,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: lightMode,
+      darkTheme: darkMode,
       title: "Login/Sign up",
       home: SplashScreen(),
     );
